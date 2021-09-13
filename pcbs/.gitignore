@@ -1,0 +1,10 @@
+# BOM Export Files
+*.csv
+*.tsv
+*.xml
+
+# Random Garbage from Schematic Editor
+*bak
+
+# Zip files for libraries
+*.zip

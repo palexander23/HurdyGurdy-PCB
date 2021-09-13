@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name XC9572XL-10VQG44C)(type KiCad)(uri /home/pete/Documents/shared-technical-work/projects/hurdy-gurdy/pcbs/libraries/XC9572XL-10VQG44C)(options "")(descr ""))
+  (lib (name USB-Micro-B)(type KiCad)(uri /home/pete/Documents/shared-technical-work/projects/hurdy-gurdy/pcbs/libraries/USB-Micro-B)(options "")(descr ""))
+)
