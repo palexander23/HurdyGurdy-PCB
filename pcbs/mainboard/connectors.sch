@@ -192,7 +192,7 @@ F 3 "~" H 3950 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	3110 4335 4935 4335
+	3110 5835 4935 5835
 Wire Notes Line
 	4935 4335 4935 475 
 Text Notes 715  4635 0    79   ~ 16
@@ -359,80 +359,121 @@ Wire Wire Line
 	1250 6900 1300 6900
 Wire Notes Line
 	4942 4341 4942 7800
-Text Notes 3200 4600 0    79   ~ 16
+Text Notes 3250 6150 0    79   ~ 16
 Mounting Holes
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 6153CC4B
-P 3750 5000
-F 0 "H1" V 3704 5150 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3795 5150 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5000 50  0001 C CNN
-F 3 "~" H 3750 5000 50  0001 C CNN
-	1    3750 5000
+P 3800 6550
+F 0 "H1" V 3754 6700 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3845 6700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3800 6550 50  0001 C CNN
+F 3 "~" H 3800 6550 50  0001 C CNN
+	1    3800 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 6153E1D0
-P 3750 5200
-F 0 "H2" V 3704 5350 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3795 5350 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5200 50  0001 C CNN
-F 3 "~" H 3750 5200 50  0001 C CNN
-	1    3750 5200
+P 3800 6750
+F 0 "H2" V 3754 6900 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3845 6900 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3800 6750 50  0001 C CNN
+F 3 "~" H 3800 6750 50  0001 C CNN
+	1    3800 6750
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 6153E50B
-P 3750 5400
-F 0 "H3" V 3704 5550 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3795 5550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5400 50  0001 C CNN
-F 3 "~" H 3750 5400 50  0001 C CNN
-	1    3750 5400
+P 3800 6950
+F 0 "H3" V 3754 7100 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3845 7100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3800 6950 50  0001 C CNN
+F 3 "~" H 3800 6950 50  0001 C CNN
+	1    3800 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 6153E7C0
-P 3750 5600
-F 0 "H4" V 3704 5750 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3795 5750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5600 50  0001 C CNN
-F 3 "~" H 3750 5600 50  0001 C CNN
-	1    3750 5600
+P 3800 7150
+F 0 "H4" V 3754 7300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3845 7300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3800 7150 50  0001 C CNN
+F 3 "~" H 3800 7150 50  0001 C CNN
+	1    3800 7150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 6153EF14
-P 3550 5700
-F 0 "#PWR0115" H 3550 5450 50  0001 C CNN
-F 1 "GND" H 3555 5527 50  0000 C CNN
-F 2 "" H 3550 5700 50  0001 C CNN
-F 3 "" H 3550 5700 50  0001 C CNN
-	1    3550 5700
+P 3600 7250
+F 0 "#PWR0115" H 3600 7000 50  0001 C CNN
+F 1 "GND" H 3605 7077 50  0000 C CNN
+F 2 "" H 3600 7250 50  0001 C CNN
+F 3 "" H 3600 7250 50  0001 C CNN
+	1    3600 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 5700 3550 5600
+	3600 7250 3600 7150
 Wire Wire Line
-	3550 5000 3650 5000
+	3600 6550 3700 6550
 Wire Wire Line
-	3650 5200 3550 5200
-Connection ~ 3550 5200
+	3700 6750 3600 6750
+Connection ~ 3600 6750
 Wire Wire Line
-	3550 5200 3550 5000
+	3600 6750 3600 6550
 Wire Wire Line
-	3550 5400 3650 5400
-Connection ~ 3550 5400
+	3600 6950 3700 6950
+Connection ~ 3600 6950
 Wire Wire Line
-	3550 5400 3550 5200
+	3600 6950 3600 6750
 Wire Wire Line
-	3650 5600 3550 5600
-Connection ~ 3550 5600
+	3700 7150 3600 7150
+Connection ~ 3600 7150
 Wire Wire Line
-	3550 5600 3550 5400
+	3600 7150 3600 6950
+Wire Wire Line
+	3650 5000 3750 5000
+Wire Wire Line
+	3650 5100 3650 5000
+$Comp
+L power:GND #PWR0116
+U 1 1 61620CEB
+P 3650 5100
+F 0 "#PWR0116" H 3650 4850 50  0001 C CNN
+F 1 "GND" H 3655 4927 50  0000 C CNN
+F 2 "" H 3650 5100 50  0001 C CNN
+F 3 "" H 3650 5100 50  0001 C CNN
+	1    3650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 61620CF5
+P 3950 4900
+F 0 "J12" H 3900 5100 50  0000 L CNN
+F 1 "VBUS" H 3850 5000 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 3950 4900 50  0001 C CNN
+F 3 "~" H 3950 4900 50  0001 C CNN
+	1    3950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0117
+U 1 1 616267BA
+P 3650 4750
+F 0 "#PWR0117" H 3650 4600 50  0001 C CNN
+F 1 "VBUS" H 3665 4923 50  0000 C CNN
+F 2 "" H 3650 4750 50  0001 C CNN
+F 3 "" H 3650 4750 50  0001 C CNN
+	1    3650 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4750 3650 4900
+Wire Wire Line
+	3650 4900 3750 4900
 $EndSCHEMATC
