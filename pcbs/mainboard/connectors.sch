@@ -357,4 +357,82 @@ F 3 "~" H 3950 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 6900 1300 6900
+Wire Notes Line
+	4942 4341 4942 7800
+Text Notes 3200 4600 0    79   ~ 16
+Mounting Holes
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6153CC4B
+P 3750 5000
+F 0 "H1" V 3704 5150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3795 5150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5000 50  0001 C CNN
+F 3 "~" H 3750 5000 50  0001 C CNN
+	1    3750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6153E1D0
+P 3750 5200
+F 0 "H2" V 3704 5350 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3795 5350 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5200 50  0001 C CNN
+F 3 "~" H 3750 5200 50  0001 C CNN
+	1    3750 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6153E50B
+P 3750 5400
+F 0 "H3" V 3704 5550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3795 5550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5400 50  0001 C CNN
+F 3 "~" H 3750 5400 50  0001 C CNN
+	1    3750 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6153E7C0
+P 3750 5600
+F 0 "H4" V 3704 5750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3795 5750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3750 5600 50  0001 C CNN
+F 3 "~" H 3750 5600 50  0001 C CNN
+	1    3750 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 6153EF14
+P 3550 5700
+F 0 "#PWR0115" H 3550 5450 50  0001 C CNN
+F 1 "GND" H 3555 5527 50  0000 C CNN
+F 2 "" H 3550 5700 50  0001 C CNN
+F 3 "" H 3550 5700 50  0001 C CNN
+	1    3550 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5700 3550 5600
+Wire Wire Line
+	3550 5000 3650 5000
+Wire Wire Line
+	3650 5200 3550 5200
+Connection ~ 3550 5200
+Wire Wire Line
+	3550 5200 3550 5000
+Wire Wire Line
+	3550 5400 3650 5400
+Connection ~ 3550 5400
+Wire Wire Line
+	3550 5400 3550 5200
+Wire Wire Line
+	3650 5600 3550 5600
+Connection ~ 3550 5600
+Wire Wire Line
+	3550 5600 3550 5400
 $EndSCHEMATC
