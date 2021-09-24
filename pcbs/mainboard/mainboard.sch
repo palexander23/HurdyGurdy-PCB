@@ -719,7 +719,7 @@ XC95_TDO
 Text GLabel 8600 1900 0    50   Input ~ 0
 XC95_TMS
 Wire Wire Line
-	10600 2400 10200 2400
+	10600 1000 10200 1000
 Wire Wire Line
 	10200 1700 10600 1700
 Wire Wire Line
@@ -728,13 +728,13 @@ Wire Wire Line
 	10200 1900 10600 1900
 Wire Wire Line
 	10200 2000 10600 2000
-Text Label 10550 2000 2    50   ~ 0
+Text Label 10600 2000 2    50   ~ 0
 key_bus4
-Text Label 10550 1900 2    50   ~ 0
+Text Label 10600 1900 2    50   ~ 0
 key_bus5
-Text Label 10550 1800 2    50   ~ 0
+Text Label 10600 1800 2    50   ~ 0
 key_bus6
-Text Label 10550 1700 2    50   ~ 0
+Text Label 10600 1700 2    50   ~ 0
 key_bus7
 Text GLabel 8600 2900 0    50   Input ~ 0
 key_row0_0
@@ -748,9 +748,9 @@ Text GLabel 8600 2500 0    50   Input ~ 0
 key_row0_4
 Text GLabel 8600 2400 0    50   Input ~ 0
 key_row0_5
-Text GLabel 8600 2300 0    50   Input ~ 0
-key_row0_6
 Text GLabel 8600 2200 0    50   Input ~ 0
+key_row0_6
+Text GLabel 8600 2300 0    50   Input ~ 0
 key_row0_7
 Text GLabel 8600 2100 0    50   Input ~ 0
 key_row1_0
@@ -776,12 +776,8 @@ Text GLabel 10200 1200 2    50   Input ~ 0
 key_row2_6
 Text GLabel 10200 1100 2    50   Input ~ 0
 key_row2_7
-Text Label 10550 2400 2    50   ~ 0
+Text Label 10600 1000 2    50   ~ 0
 key_sel0
-Text Label 10550 1000 2    50   ~ 0
-key_sel1
-Wire Wire Line
-	10200 1000 10550 1000
 Wire Notes Line
 	11300 4350 5150 4350
 Text Notes 700  900  0    79   ~ 16
@@ -1356,10 +1352,6 @@ Wire Wire Line
 Connection ~ 4550 3750
 Wire Wire Line
 	4550 3750 3400 3750
-Wire Wire Line
-	10200 2300 11100 2300
-Wire Wire Line
-	10200 2200 11100 2200
 Text GLabel 10200 2900 2    50   Input ~ 0
 key_row1_6
 Text GLabel 10200 3000 2    50   Input ~ 0
@@ -1368,22 +1360,12 @@ Text GLabel 10200 3100 2    50   Input ~ 0
 key_row1_4
 Text GLabel 10200 3200 2    50   Input ~ 0
 key_row1_3
-Wire Wire Line
-	10200 2500 11100 2500
-Wire Wire Line
-	10200 2100 11100 2100
-Text Label 10750 2500 0    50   ~ 0
-key_bus0
-Text Label 10750 2300 0    50   ~ 0
+Text Label 10600 2200 2    50   ~ 0
 key_bus1
-Text Label 10750 2200 0    50   ~ 0
+Text Label 10600 2300 2    50   ~ 0
 key_bus2
-Text Label 10750 2100 0    50   ~ 0
+Text Label 10600 2500 2    50   ~ 0
 key_bus3
-Wire Bus Line
-	3950 2400 3950 3550
-Wire Bus Line
-	3900 2350 3900 3250
 $Comp
 L Device:C_Small C9
 U 1 1 6140EA17
@@ -1407,4 +1389,26 @@ F 3 "" H 4550 1400 50  0001 C CNN
 	1    4550 1400
 	1    0    0    -1  
 $EndComp
+Text Label 10600 2100 2    50   ~ 0
+key_bus0
+Wire Wire Line
+	10200 2200 10600 2200
+Wire Wire Line
+	10200 2100 10600 2100
+Wire Wire Line
+	10200 2300 10600 2300
+Wire Wire Line
+	10200 2500 10600 2500
+Text Label 2000 3450 2    50   ~ 0
+D+
+Text Label 2000 3550 2    50   ~ 0
+D-
+Wire Wire Line
+	10200 2400 10550 2400
+Text Label 10550 2400 2    50   ~ 0
+key_sel1
+Wire Bus Line
+	3950 2400 3950 3550
+Wire Bus Line
+	3900 2350 3900 3250
 $EndSCHEMATC
