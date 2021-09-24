@@ -229,13 +229,13 @@ Wire Wire Line
 	850  5650 850  5750
 Wire Wire Line
 	850  5750 1400 5750
-Text GLabel 1400 5950 0    50   Input ~ 0
-JTAG_TCK
-Text GLabel 1400 6050 0    50   Input ~ 0
-JTAG_TDI
 Text GLabel 1400 6150 0    50   Input ~ 0
-JTAG_TDO
+JTAG_TCK
+Text GLabel 1400 5950 0    50   Input ~ 0
+JTAG_TDI
 Text GLabel 1400 6250 0    50   Input ~ 0
+JTAG_TDO
+Text GLabel 1400 6050 0    50   Input ~ 0
 JTAG_TMS
 Text GLabel 1300 7100 0    50   Input ~ 0
 nReset_32U4
@@ -355,8 +355,6 @@ F 3 "~" H 3950 3900 50  0001 C CNN
 	1    3950 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 6900 1300 6900
 Wire Notes Line
 	4942 4341 4942 7800
 Text Notes 3250 6150 0    79   ~ 16
@@ -395,29 +393,16 @@ F 3 "~" H 3800 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 6153E7C0
-P 3800 7150
-F 0 "H4" V 3754 7300 50  0000 L CNN
-F 1 "MountingHole_Pad" V 3845 7300 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3800 7150 50  0001 C CNN
-F 3 "~" H 3800 7150 50  0001 C CNN
-	1    3800 7150
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0115
 U 1 1 6153EF14
-P 3600 7250
-F 0 "#PWR0115" H 3600 7000 50  0001 C CNN
-F 1 "GND" H 3605 7077 50  0000 C CNN
-F 2 "" H 3600 7250 50  0001 C CNN
-F 3 "" H 3600 7250 50  0001 C CNN
-	1    3600 7250
+P 3600 7100
+F 0 "#PWR0115" H 3600 6850 50  0001 C CNN
+F 1 "GND" H 3605 6927 50  0000 C CNN
+F 2 "" H 3600 7100 50  0001 C CNN
+F 3 "" H 3600 7100 50  0001 C CNN
+	1    3600 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 7250 3600 7150
 Wire Wire Line
 	3600 6550 3700 6550
 Wire Wire Line
@@ -430,11 +415,6 @@ Wire Wire Line
 Connection ~ 3600 6950
 Wire Wire Line
 	3600 6950 3600 6750
-Wire Wire Line
-	3700 7150 3600 7150
-Connection ~ 3600 7150
-Wire Wire Line
-	3600 7150 3600 6950
 Wire Wire Line
 	3650 5000 3750 5000
 Wire Wire Line
@@ -476,4 +456,6 @@ Wire Wire Line
 	3650 4750 3650 4900
 Wire Wire Line
 	3650 4900 3750 4900
+Wire Wire Line
+	3600 6950 3600 7100
 $EndSCHEMATC

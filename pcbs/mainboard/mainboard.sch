@@ -456,9 +456,9 @@ Wire Bus Line
 	3950 2400 4700 2400
 Text Label 3950 2500 0    50   ~ 0
 key_sel[0..1]
-Text GLabel 3400 3650 2    50   Input ~ 0
+Text GLabel 4700 3650 2    50   Input ~ 0
 I2C_SCL
-Text GLabel 3400 3750 2    50   Input ~ 0
+Text GLabel 4700 3750 2    50   Input ~ 0
 I2C_SDA
 Text GLabel 3400 4850 2    50   Input ~ 0
 CRANK_V_IN
@@ -532,47 +532,47 @@ Wire Wire Line
 Text GLabel 2450 6600 2    50   Input ~ 0
 GPIO6_HWB
 Wire Wire Line
-	4050 6100 4050 6350
+	3850 6300 3850 6550
 Wire Wire Line
-	4050 6850 4050 7050
+	3850 7050 3850 7250
 $Comp
 L power:GND #PWR016
 U 1 1 6148F6D8
-P 4050 7050
-F 0 "#PWR016" H 4050 6800 50  0001 C CNN
-F 1 "GND" H 4055 6877 50  0000 C CNN
-F 2 "" H 4050 7050 50  0001 C CNN
-F 3 "" H 4050 7050 50  0001 C CNN
-	1    4050 7050
+P 3850 7250
+F 0 "#PWR016" H 3850 7000 50  0001 C CNN
+F 1 "GND" H 3855 7077 50  0000 C CNN
+F 2 "" H 3850 7250 50  0001 C CNN
+F 3 "" H 3850 7250 50  0001 C CNN
+	1    3850 7250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 6550 4050 6650
+	3850 6750 3850 6850
 $Comp
 L Device:R_Small R5
 U 1 1 6148F6E3
-P 4050 6750
-F 0 "R5" V 3854 6750 50  0000 C CNN
-F 1 "1k" V 3950 6750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 6750 50  0001 C CNN
-F 3 "~" H 4050 6750 50  0001 C CNN
-F 4 "C21190" H 4050 6750 50  0001 C CNN "JLCPCB Part #"
-	1    4050 6750
+P 3850 6950
+F 0 "R5" V 3654 6950 50  0000 C CNN
+F 1 "1k" V 3750 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3850 6950 50  0001 C CNN
+F 3 "~" H 3850 6950 50  0001 C CNN
+F 4 "C21190" H 3850 6950 50  0001 C CNN "JLCPCB Part #"
+	1    3850 6950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small D1
 U 1 1 6148F6ED
-P 4050 6450
-F 0 "D1" V 4096 6380 50  0000 R CNN
-F 1 "YELLOW" V 4005 6380 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4050 6450 50  0001 C CNN
-F 3 "~" V 4050 6450 50  0001 C CNN
-F 4 "C72038" H 4050 6450 50  0001 C CNN "JLCPCB Part #"
-	1    4050 6450
+P 3850 6650
+F 0 "D1" V 3896 6580 50  0000 R CNN
+F 1 "YELLOW" V 3805 6580 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3850 6650 50  0001 C CNN
+F 3 "~" V 3850 6650 50  0001 C CNN
+F 4 "C72038" H 3850 6650 50  0001 C CNN "JLCPCB Part #"
+	1    3850 6650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4050 6100 1    50   Input ~ 0
+Text GLabel 3850 6300 1    50   Input ~ 0
 STAT_LED
 Wire Notes Line
 	5150 400  5150 7900
@@ -662,18 +662,6 @@ F 4 "C14663" H 7000 1000 50  0001 C CNN "JLCPCB Part #"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
-U 1 1 6140EA17
-P 7350 1000
-F 0 "C9" H 7300 1100 50  0000 R CNN
-F 1 "100n" H 7300 900 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 1000 50  0001 C CNN
-F 3 "~" H 7350 1000 50  0001 C CNN
-F 4 "C14663" H 7350 1000 50  0001 C CNN "JLCPCB Part #"
-	1    7350 1000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C10
 U 1 1 6140EF58
 P 7700 1000
@@ -731,125 +719,69 @@ XC95_TDO
 Text GLabel 8600 1900 0    50   Input ~ 0
 XC95_TMS
 Wire Wire Line
-	8600 2100 8200 2100
+	10600 2400 10200 2400
 Wire Wire Line
-	8600 2900 8200 2900
+	10200 1700 10600 1700
 Wire Wire Line
-	8600 2800 8200 2800
+	10200 1800 10600 1800
 Wire Wire Line
-	8600 2700 8200 2700
+	10200 1900 10600 1900
 Wire Wire Line
-	8600 2600 8200 2600
-Wire Wire Line
-	8600 2500 8200 2500
-Wire Wire Line
-	8600 2400 8200 2400
-Wire Wire Line
-	8600 2300 8200 2300
-Wire Wire Line
-	8600 2200 8200 2200
-Entry Wire Line
-	8100 2000 8200 2100
-Entry Wire Line
-	8100 2100 8200 2200
-Entry Wire Line
-	8100 2200 8200 2300
-Entry Wire Line
-	8100 2300 8200 2400
-Entry Wire Line
-	8100 2400 8200 2500
-Entry Wire Line
-	8100 2500 8200 2600
-Entry Wire Line
-	8100 2600 8200 2700
-Entry Wire Line
-	8100 2700 8200 2800
-Text Label 7550 2000 0    50   ~ 0
-key_bus[0..7]
-Wire Bus Line
-	7550 2000 8100 2000
-Text Label 8250 2100 0    50   ~ 0
-key_bus0
-Text Label 8250 2200 0    50   ~ 0
-key_bus1
-Text Label 8250 2300 0    50   ~ 0
-key_bus2
-Text Label 8250 2400 0    50   ~ 0
-key_bus3
-Text Label 8250 2500 0    50   ~ 0
+	10200 2000 10600 2000
+Text Label 10550 2000 2    50   ~ 0
 key_bus4
-Text Label 8250 2600 0    50   ~ 0
+Text Label 10550 1900 2    50   ~ 0
 key_bus5
-Text Label 8250 2700 0    50   ~ 0
+Text Label 10550 1800 2    50   ~ 0
 key_bus6
-Text Label 8250 2800 0    50   ~ 0
+Text Label 10550 1700 2    50   ~ 0
 key_bus7
-Text GLabel 10200 2600 2    50   Input ~ 0
+Text GLabel 8600 2900 0    50   Input ~ 0
 key_row0_0
-Text GLabel 10200 2700 2    50   Input ~ 0
+Text GLabel 8600 2800 0    50   Input ~ 0
 key_row0_1
-Text GLabel 10200 2800 2    50   Input ~ 0
+Text GLabel 8600 2700 0    50   Input ~ 0
 key_row0_2
-Text GLabel 10200 2900 2    50   Input ~ 0
+Text GLabel 8600 2600 0    50   Input ~ 0
 key_row0_3
-Text GLabel 10200 3000 2    50   Input ~ 0
+Text GLabel 8600 2500 0    50   Input ~ 0
 key_row0_4
-Text GLabel 10200 3100 2    50   Input ~ 0
+Text GLabel 8600 2400 0    50   Input ~ 0
 key_row0_5
-Text GLabel 10200 3200 2    50   Input ~ 0
+Text GLabel 8600 2300 0    50   Input ~ 0
 key_row0_6
-Text GLabel 10200 3300 2    50   Input ~ 0
+Text GLabel 8600 2200 0    50   Input ~ 0
 key_row0_7
-Text GLabel 10200 1800 2    50   Input ~ 0
+Text GLabel 8600 2100 0    50   Input ~ 0
 key_row1_0
-Text GLabel 10200 1900 2    50   Input ~ 0
+Text GLabel 10200 3400 2    50   Input ~ 0
 key_row1_1
-Text GLabel 10200 2000 2    50   Input ~ 0
+Text GLabel 10200 3300 2    50   Input ~ 0
 key_row1_2
-Text GLabel 10200 2100 2    50   Input ~ 0
-key_row1_3
-Text GLabel 10200 2200 2    50   Input ~ 0
-key_row1_4
-Text GLabel 10200 2300 2    50   Input ~ 0
-key_row1_5
-Text GLabel 10200 2400 2    50   Input ~ 0
-key_row1_6
-Text GLabel 10200 2500 2    50   Input ~ 0
+Text GLabel 10200 2800 2    50   Input ~ 0
 key_row1_7
-Text GLabel 10200 1000 2    50   Input ~ 0
+Text GLabel 10200 2700 2    50   Input ~ 0
 key_row2_0
-Text GLabel 10200 1100 2    50   Input ~ 0
+Text GLabel 10200 2600 2    50   Input ~ 0
 key_row2_1
-Text GLabel 10200 1200 2    50   Input ~ 0
+Text GLabel 10200 1600 2    50   Input ~ 0
 key_row2_2
-Text GLabel 10200 1300 2    50   Input ~ 0
+Text GLabel 10200 1500 2    50   Input ~ 0
 key_row2_3
 Text GLabel 10200 1400 2    50   Input ~ 0
 key_row2_4
-Text GLabel 10200 1500 2    50   Input ~ 0
+Text GLabel 10200 1300 2    50   Input ~ 0
 key_row2_5
-Text GLabel 10200 1600 2    50   Input ~ 0
+Text GLabel 10200 1200 2    50   Input ~ 0
 key_row2_6
-Text GLabel 10200 1700 2    50   Input ~ 0
+Text GLabel 10200 1100 2    50   Input ~ 0
 key_row2_7
-Entry Wire Line
-	8100 2800 8200 2900
-Wire Bus Line
-	8100 2800 7550 2800
-Text Label 7550 2800 0    50   ~ 0
-key_sel[0..1]
-Text Label 8550 2900 2    50   ~ 0
+Text Label 10550 2400 2    50   ~ 0
 key_sel0
-Text Label 10650 3500 0    50   ~ 0
-key_sel[0..1]
-Entry Wire Line
-	10550 3400 10650 3500
-Wire Bus Line
-	10650 3500 11100 3500
-Text Label 10550 3400 2    50   ~ 0
+Text Label 10550 1000 2    50   ~ 0
 key_sel1
 Wire Wire Line
-	10200 3400 10550 3400
+	10200 1000 10550 1000
 Wire Notes Line
 	11300 4350 5150 4350
 Text Notes 700  900  0    79   ~ 16
@@ -1222,23 +1154,23 @@ F 3 "" H 7350 5200 50  0001 C CNN
 $EndComp
 Text Notes 700  1650 0    50   ~ 0
 ICSP Header defined on connectors sheet.\nThe signal pins are as follows:\n\nMISO    PB3    key_bus3\nMOSI    PB2    key_bus2\nSCK     PB1    key_bus1\n\nLC filter for +3V3A analog power bus taken \nfrom Fig. 24-10 in 32U4 datasheet.
-Text GLabel 4650 2900 2    50   Input ~ 0
+Text GLabel 4850 2700 2    50   Input ~ 0
 MISO
-Text GLabel 4650 3000 2    50   Input ~ 0
+Text GLabel 4850 2800 2    50   Input ~ 0
 MOSI
-Text GLabel 4650 3100 2    50   Input ~ 0
+Text GLabel 4850 2900 2    50   Input ~ 0
 SCK
 Wire Wire Line
-	4300 3100 4650 3100
+	4500 2900 4850 2900
 Wire Wire Line
-	4300 3000 4650 3000
+	4500 2800 4850 2800
 Wire Wire Line
-	4300 2900 4650 2900
-Text Label 4300 2900 0    50   ~ 0
+	4500 2700 4850 2700
+Text Label 4500 2700 0    50   ~ 0
 key_bus3
-Text Label 4300 3000 0    50   ~ 0
+Text Label 4500 2800 0    50   ~ 0
 key_bus2
-Text Label 4300 3100 0    50   ~ 0
+Text Label 4500 2900 0    50   ~ 0
 key_bus1
 $Comp
 L power:+3V3 #PWR0111
@@ -1256,7 +1188,7 @@ L Device:C_Small C13
 U 1 1 614D07DB
 P 4550 1250
 F 0 "C13" H 4500 1350 50  0000 R CNN
-F 1 "100n" H 4500 1150 50  0000 R CNN
+F 1 "100n" H 6150 1300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4550 1250 50  0001 C CNN
 F 3 "~" H 4550 1250 50  0001 C CNN
 F 4 "C14663" H 4550 1250 50  0001 C CNN "JLCPCB Part #"
@@ -1276,17 +1208,6 @@ Wire Wire Line
 Connection ~ 4550 1100
 Wire Wire Line
 	4550 1100 4700 1100
-$Comp
-L power:GND #PWR0112
-U 1 1 61529797
-P 4550 1400
-F 0 "#PWR0112" H 4550 1150 50  0001 C CNN
-F 1 "GND" H 4555 1227 50  0000 C CNN
-F 2 "" H 4550 1400 50  0001 C CNN
-F 3 "" H 4550 1400 50  0001 C CNN
-	1    4550 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 1350 4550 1400
 $Comp
@@ -1336,7 +1257,7 @@ L Switch:SW_Push SW1
 U 1 1 615F31C2
 P 1050 6900
 F 0 "SW1" V 1096 6852 50  0000 R CNN
-F 1 "SW_Push" V 1005 6852 50  0000 R CNN
+F 1 "nReset" V 1005 6852 50  0000 R CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1050 7100 50  0001 C CNN
 F 3 "~" H 1050 7100 50  0001 C CNN
 	1    1050 6900
@@ -1347,7 +1268,7 @@ L Switch:SW_Push SW2
 U 1 1 615F39C9
 P 2300 6900
 F 0 "SW2" V 2346 6852 50  0000 R CNN
-F 1 "SW_Push" V 2255 6852 50  0000 R CNN
+F 1 "HWB" V 2255 6852 50  0000 R CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2300 7100 50  0001 C CNN
 F 3 "~" H 2300 7100 50  0001 C CNN
 	1    2300 6900
@@ -1376,11 +1297,114 @@ Wire Wire Line
 	6700 1100 6700 1200
 Wire Wire Line
 	6700 1200 7000 1200
+Connection ~ 7000 1200
+Wire Wire Line
+	4700 3650 4250 3650
+Wire Wire Line
+	4700 3750 4550 3750
+$Comp
+L Device:R_Small R7
+U 1 1 6154D8AB
+P 4250 3400
+F 0 "R7" V 4350 3400 50  0000 C CNN
+F 1 "4.99k" V 4150 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4250 3400 50  0001 C CNN
+F 3 "~" H 4250 3400 50  0001 C CNN
+F 4 "C23046" H 4250 3400 50  0001 C CNN "JLCPCB Part #"
+	1    4250 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 6154DF84
+P 4550 3400
+F 0 "R8" V 4650 3400 50  0000 C CNN
+F 1 "4.99k" V 4450 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4550 3400 50  0001 C CNN
+F 3 "~" H 4550 3400 50  0001 C CNN
+F 4 "C23046" H 4550 3400 50  0001 C CNN "JLCPCB Part #"
+	1    4550 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 6154EE04
+P 4250 3200
+F 0 "#PWR0118" H 4250 3050 50  0001 C CNN
+F 1 "+3V3" H 4250 3400 50  0000 C CNN
+F 2 "" H 4250 3200 50  0001 C CNN
+F 3 "" H 4250 3200 50  0001 C CNN
+	1    4250 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3200 4250 3250
+Wire Wire Line
+	4250 3250 4550 3250
+Wire Wire Line
+	4550 3250 4550 3300
+Wire Wire Line
+	4250 3300 4250 3250
+Connection ~ 4250 3250
+Wire Wire Line
+	4250 3500 4250 3650
+Connection ~ 4250 3650
+Wire Wire Line
+	4250 3650 3400 3650
+Wire Wire Line
+	4550 3500 4550 3750
+Connection ~ 4550 3750
+Wire Wire Line
+	4550 3750 3400 3750
+Wire Wire Line
+	10200 2300 11100 2300
+Wire Wire Line
+	10200 2200 11100 2200
+Text GLabel 10200 2900 2    50   Input ~ 0
+key_row1_6
+Text GLabel 10200 3000 2    50   Input ~ 0
+key_row1_5
+Text GLabel 10200 3100 2    50   Input ~ 0
+key_row1_4
+Text GLabel 10200 3200 2    50   Input ~ 0
+key_row1_3
+Wire Wire Line
+	10200 2500 11100 2500
+Wire Wire Line
+	10200 2100 11100 2100
+Text Label 10750 2500 0    50   ~ 0
+key_bus0
+Text Label 10750 2300 0    50   ~ 0
+key_bus1
+Text Label 10750 2200 0    50   ~ 0
+key_bus2
+Text Label 10750 2100 0    50   ~ 0
+key_bus3
 Wire Bus Line
 	3950 2400 3950 3550
 Wire Bus Line
-	8100 2000 8100 2700
-Wire Bus Line
 	3900 2350 3900 3250
-Connection ~ 7000 1200
+$Comp
+L Device:C_Small C9
+U 1 1 6140EA17
+P 7350 1000
+F 0 "C9" H 7300 1100 50  0000 R CNN
+F 1 "100n" H 7300 900 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 1000 50  0001 C CNN
+F 3 "~" H 7350 1000 50  0001 C CNN
+F 4 "C14663" H 7350 1000 50  0001 C CNN "JLCPCB Part #"
+	1    7350 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 61529797
+P 4550 1400
+F 0 "#PWR0112" H 4550 1150 50  0001 C CNN
+F 1 "GND" H 4555 1227 50  0000 C CNN
+F 2 "" H 4550 1400 50  0001 C CNN
+F 3 "" H 4550 1400 50  0001 C CNN
+	1    4550 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
