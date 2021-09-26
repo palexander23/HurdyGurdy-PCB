@@ -98,12 +98,8 @@ F 3 "~" H 2700 1250 50  0001 C CNN
 	1    2700 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2500 1250 0    50   Input ~ 0
+Text GLabel 2350 1350 0    50   Input ~ 0
 CRANK_V_IN
-Wire Wire Line
-	2500 1350 2400 1350
-Wire Wire Line
-	2400 1350 2400 1450
 $Comp
 L power:GND #PWR0103
 U 1 1 6173415C
@@ -458,4 +454,10 @@ Wire Wire Line
 	3650 4900 3750 4900
 Wire Wire Line
 	3600 6950 3600 7100
+Wire Wire Line
+	2400 1250 2500 1250
+Wire Wire Line
+	2400 1250 2400 1450
+Wire Wire Line
+	2350 1350 2500 1350
 $EndSCHEMATC

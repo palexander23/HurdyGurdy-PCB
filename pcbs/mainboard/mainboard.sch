@@ -460,7 +460,7 @@ Text GLabel 4700 3650 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 4700 3750 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 3400 4850 2    50   Input ~ 0
+Text GLabel 3400 4350 2    50   Input ~ 0
 CRANK_V_IN
 Text GLabel 3400 5350 2    50   Input ~ 0
 32U4_TDI
@@ -470,23 +470,23 @@ Text GLabel 3400 5150 2    50   Input ~ 0
 32U4_TMS
 Text GLabel 3400 5050 2    50   Input ~ 0
 32U4_TCK
-Text GLabel 3400 4950 2    50   Input ~ 0
+Text GLabel 3400 4650 2    50   Input ~ 0
 STAT_LED
-Text GLabel 3400 3850 2    50   Input ~ 0
+Text GLabel 3400 4550 2    50   Input ~ 0
 GPIO0
-Text GLabel 3400 3950 2    50   Input ~ 0
+Text GLabel 3400 4150 2    50   Input ~ 0
 GPIO1
 Text GLabel 3400 4050 2    50   Input ~ 0
 GPIO2
-Text GLabel 3400 4150 2    50   Input ~ 0
+Text GLabel 3400 3950 2    50   Input ~ 0
 GPIO3
 Text GLabel 3400 4250 2    50   Input ~ 0
 GPIO4
-Text GLabel 3400 4350 2    50   Input ~ 0
+Text GLabel 3400 4850 2    50   Input ~ 0
 GPIO5
-Text GLabel 3400 4550 2    50   Input ~ 0
+Text GLabel 3400 3850 2    50   Input ~ 0
 GPIO6_HWB
-Text GLabel 3400 4650 2    50   Input ~ 0
+Text GLabel 3400 4950 2    50   Input ~ 0
 GPIO7
 $Comp
 L Device:R_Small R4
